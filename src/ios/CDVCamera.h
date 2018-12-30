@@ -21,6 +21,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreLocation/CLLocationManager.h>
 #import <Cordova/CDVPlugin.h>
+#import "TrinityPlugin.h"
 
 enum CDVDestinationType {
     DestinationTypeDataUrl = 0,
@@ -80,7 +81,7 @@ typedef NSUInteger CDVMediaType;
 
 // ======================================================================= //
 
-@interface CDVCamera : CDVPlugin <UIImagePickerControllerDelegate,
+@interface CDVCamera : TrinityPlugin <UIImagePickerControllerDelegate,
                        UINavigationControllerDelegate,
                        UIPopoverControllerDelegate,
                        CLLocationManagerDelegate>
