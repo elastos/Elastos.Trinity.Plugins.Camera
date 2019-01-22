@@ -40,15 +40,9 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 ## Installation
 
-This requires cordova 5.0+
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Camera
 
-    cordova plugin add elastos-trinity-plugins-camera
-Older versions of cordova can still install via the __deprecated__ id
-
-    cordova plugin add org.apache.cordova.camera
-It is also possible to install via repo url directly ( unstable )
-
-    cordova plugin add https://github.com/apache/elastos-trinity-plugins-camera.git
+    The plugins field of dapp manifest.json adds Camera values, such as "plugins": ["XXXX", "Camera", "XXXX"]
 
 
 ## How to Contribute
